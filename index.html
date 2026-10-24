@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="HTML5, таблиця, CSS3, transform, hover, лабораторна робота 2">
+    <meta name="description" content="Лабораторна робота №2: таблиця HTML5 та зображення телефону засобами CSS3.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Хитрук Є.І., група ІА-42, ЛР №2, варіант 6</title>
+
+   
+    <link rel="stylesheet" href="style.css">
+
+   
+    <style>
+        table {
+            border-collapse: collapse;
+            table-layout: fixed;
+            width: 700px;
+            margin: 20px auto;
+        }
+
+        td {
+            border: 2px solid #333333;
+            height: 50px;
+            padding: 8px;
+            text-align: center;
+            color: #000000;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        
+        .row1 td { background-color: #068f8f; }
+
+        
+        .row2 td { background-color: #f5f506; }
+
+       
+        .row1:hover td { background-color: #f5f506; }
+        .row2:hover td { background-color: #068f8f; }
+    </style>
+</head>
+<body>
+
+    <h1>Лабораторна робота №2</h1>
+
+    <h2>Завдання 1. Таблиця (варіант 6)</h2>
+
+    <table>
+        <tr class="row1">
+            <td rowspan="2">Хитрук</td>
+            <td colspan="2">Єлизавета</td>
+            <td>Ігорівна</td>
+            <td></td>
+        </tr>
+        <tr class="row2">
+            <td rowspan="2">ІА-42</td>
+            <td rowspan="2">ЛР №2</td>
+            <td rowspan="3">Варіант 6</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td rowspan="2"></td>
+        </tr>
+        <tr>
+            <td colspan="3"></td>
+        </tr>
+    </table>
+
+    <h2>Завдання 2. Зображення (варіант 6)</h2>
+
+    <div class="phone">
+        <div class="screen">12:00</div>
+        <div class="btn b1"></div>
+        <div class="btn b2"></div>
+        <div class="btn b3"></div>
+        <div class="btn b4"></div>
+        <div class="btn b5"></div>
+        <div class="btn b6"></div>
+        <div class="btn b7"></div>
+        <div class="btn b8"></div>
+        <div class="btn b9"></div>
+    </div>
+
+</body>
+</html>
